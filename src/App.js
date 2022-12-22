@@ -1,7 +1,8 @@
 import './App.css';
 import { useSelector, useDispatch, connect } from 'react-redux'
 import { clearData, fetchData, incrementId, decrementId, inputId } from './features/dataSlice'
-import { useEffect } from 'react';
+import { useEffect } from 'react'
+
 
 function App(props) {
   const dispatch = useDispatch()
